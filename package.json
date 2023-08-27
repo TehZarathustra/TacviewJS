@@ -1,0 +1,11 @@
+{
+	"name": "tacviewjs",
+	"description": "Tacview to JS/JSON parser",
+	"version": "0.0.1",
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"publish-core": "npm publish --workspace @tacviewjs/core"
+	}
+}
